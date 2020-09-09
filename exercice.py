@@ -7,7 +7,8 @@ def square_root(number: int) -> float:
     # TODO completer la fonction
     try :
         math.sqrt(number)
-    e
+    except ValueError :
+        pr
     return math.sqrt(number)
 
 
