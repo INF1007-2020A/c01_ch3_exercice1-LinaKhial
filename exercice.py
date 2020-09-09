@@ -5,7 +5,7 @@ import math
 
 def square_root(number: int) -> float:
     # TODO completer la fonction
-    try : # on gere une exception d'une valeur negative entree
+    try : 
         math.sqrt(number)
     except ValueError :
         print("La valeur est negative!")
